@@ -1,0 +1,342 @@
+*{margin: 0; padding: 0;}
+
+body
+{
+	background: url('../images/social-network.jpg');
+	background-size: cover;
+
+}
+
+#E
+{
+	font-family: tesla;
+}
+
+@font-face
+{
+	font-family: tesla;
+	src:url('../fonts/TESLA.ttf');
+
+}
+
+@font-face
+{
+    font-family: gotham;
+    src:url('../fonts/GothamBoldRegular.ttf');
+}
+
+#header-principal
+{
+	width: 100%;
+	font-size: 20px;
+	background: #66cccc;
+	line-height: 100px;
+	opacity: 0.9;
+}
+
+#LOGO
+{
+	font-size: 40px;
+	line-height: 100px;
+	margin-left: 30px;
+	color: #fff;
+}
+
+#LogoLogin
+{
+	
+	text-align: center;
+	font-size: 40px;
+	background-color: #66cccc;
+	border-radius: 10px;
+	box-shadow: #525252 10px 10px 15px;
+}
+
+#LogoLogin a
+{
+	color: #fff;
+}
+
+#btn-modulo
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 30%;
+	margin-left: 35%;
+	box-shadow: silver 5px 5px 15px;
+	background-color: #00cc7a;
+	color: #fff;
+	text-shadow: #000 2px 2px 5px;
+	border-radius: 30px;
+}
+
+#home
+{
+	
+}
+
+#item
+{
+	line-height: 70px;
+	color: #fff;
+}
+
+#item:hover
+{
+	color:#2272A5;
+
+}
+
+#informacion1
+{
+	text-align: center;
+	font-size: 30px;
+	background: rgba(192,192,192,0.8); 
+	width: 30%;
+	border-radius: 70px;
+	padding: 20px;
+	color: #107FC5;
+	margin: 15px;
+	cursor: pointer;
+}
+
+#informacion1:hover
+{
+	background: rgba(192,192,192,0.9); 
+}
+
+#contenedor
+{
+	text-align: center;
+	background: #C1C1C1;
+	width: 100px;
+	height: 40px;
+	box-shadow: #737373 10px 10px 10px;
+	border-radius: 20px;
+}
+
+#item-login
+{
+	font-size: 18px;
+}
+
+#register-form
+{
+	background: rgba(242,242,242,0.9);
+	width: 50%;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+
+
+
+/*------------------------------------------------------------------------*/
+/*                             MODULO - STREAMING                         */
+/*------------------------------------------------------------------------*/
+
+
+
+/*_________________ START FILTROS DE BUSQUEDAS ___________*/
+.menu-principal
+{
+	float: left;
+	width: 12%;
+	height: 600px;
+	background-color: rgba(220,220,220,0.8);
+	margin-left: 5px;
+	padding: 10px;
+	border: solid 2px #ADCFFE;
+	border-radius: 20px;
+}
+
+input[type=checkbox].checkbox
+{
+	margin-left: 4%;
+}
+
+input[type=checkbox].checkbox + label.css-label
+{
+	margin-left: 4%;
+	padding-top: 4px;
+	height: 23px;
+	display: inline-block;
+	line-height: 15px;
+	font-size: 15px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+input[type=text]
+{
+	width: 100%;
+	border-radius: 5px;
+	padding: 3px;
+	box-shadow: #CCCCCC 5px 5px 5px;
+	margin-bottom: 5%;
+}
+
+
+.menu-principal h3
+{
+	padding: 4%;
+	margin-top: 15%;
+	text-align: center;
+	color: #1476E4;
+}
+/*_________________ END FILTROS DE BUSQUEDAS ___________*/
+
+
+
+
+
+/*_________________ START PERFILES USUARIOS ___________*/
+
+.perfiles
+{
+	float: left;
+	width: 20%;
+	height: 600px;
+	background-color: rgba(220,220,220,0.8);
+	margin-left: 1%;
+	border: solid 2px #ADCFFE;
+	border-radius: 10px;
+	overflow-y: scroll;
+}
+
+.perfiles::-webkit-scrollbar{
+	width: 3px;
+}
+
+.perfiles::-webkit-scrollbar-thumb{
+	background: #53B8D1;
+	border-radius: 10px;
+}
+
+.perfiles h3
+{
+	position: fixed;
+	color: #1476E4;
+	background-color: rgba(220,220,220,0.9);
+	margin: 0;
+	border-radius: 5px;
+	border-bottom: #1476E4 2px solid;
+	padding-top: 5px;
+}
+
+.titulo-emprendedores
+{
+	text-align: center;
+	width: 19%;
+}
+.contenedor-perfiles
+{
+	height: auto;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.perfil
+{	
+	width: 100%;
+	height: 200px;
+	border:#ADCFFE solid 2px;
+	border-radius: 5px;
+	margin-bottom: 5px; 
+}
+
+.foto
+{
+	width: 40%;
+	height: 45%;
+	background: #FFFFFF;
+	border-radius: 100%;
+	text-align: center;
+	float: left;
+}
+
+.basicos
+{
+	width: 59%;
+	float: right;
+	height: 45%;
+	background: #C1DCDE;
+}
+.basicos span
+{
+	display: block;
+	margin-top: 4%;
+	margin-left: 5%;
+}
+
+.detalles
+{
+	background: #c1dcde;
+	float: left;
+	width: 100%;
+	margin-top: 2px;
+	height: 53%;
+}
+/*_________________ END PERFILES USUARIOS ___________*/
+
+
+
+/*_______________ Start Streaming _________*/ 
+
+.modulo-streaming
+{
+	width: 40%;
+	height: 600px;
+	background: rgba(240,240,240,0.9);
+	float: left;
+	margin-left: 1%;
+	padding:10px;
+}
+
+.modulo-chat
+{
+	width: 100%;
+	height: 340px;
+	background: #7F81DD;
+}
+
+.modulo-video
+{
+	width: 100%;
+	height: 240px;
+	background: #DC9090;
+	position: relative;
+}
+
+video
+{	
+	position: absolute;
+	width: 25%;
+	bottom: 10px;
+	right: 10px;
+}
+
+#temas
+{
+	
+	background: none;
+}
+
+/*_______________ End Streaming _________*/ 
+
+.botonera
+		 {
+		    text-align: center;
+		 }
+	   
+		 #video
+		 {
+		    display: block;
+		    border:solid 5px #f7f7f7;
+		    width: 30%;
+		 }
+		 .boton
+		 {
+		    padding: 0.5em;
+		    display: inline-block;
+		    margin: 1em auto;
+		 }
